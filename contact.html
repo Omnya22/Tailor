@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mazora</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg fixed-top navbar-dark"
+		 style="background-color: #464242;">
+		<div class="container">
+			<a class="navbar-brand logo" style="font-style: oblique;font-weight: bold;font-variant: small-caps;color:#BE7B50;" href="index.html"><span class="fa fa-cut" aria-hidden="true"></span><span class="h4 font-weight-bold ">maZora</span>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item ">
+	        			<a class="nav-link m-2" href="index.html">Home <span class="sr-only">(current)</span></a>
+	        		</li>
+					<li class = "nav-item active">
+						<a class="nav-link m-2" href="contact.html">Contact</a>
+					</li>
+					<!-- Dropdown -->
+					<li class="nav-item dropdown ">
+				 		<a class="nav-link dropdown-toggle m-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">	Category
+				 		</a>
+						<div class="dropdown-menu"aria-labelledby="navbarDropdown">
+	          				<a class="dropdown-item" href="#">Casual</a>
+	          				<a class="dropdown-item" href="#">Soiree</a>
+	          				<a class="dropdown-item" href="#">Formal</a>
+	          				<a class="dropdown-item" href="#">Semi-Formal</a>
+						</div>
+					</li>
+					<li class = "nav-link">
+						<input type="text" name="searchName" id="searchName" class="rounded bg-transparent p-1 m-1" style="color:#975D3E;" placeholder="Search..." />
+					</li>
+				</ul>
+				<ul class="navbar-nav navbar-right">
+					<li class="nav-link">
+						<a href="singup.html" id="registerLink" class="nav-item" style="color: #a6a3a3;"><i class="fa fa-user-plus"></i>SignUp</a>
+					</li>
+					<li class="nav-link">
+						<a href="log.html" id="loginLink" class="nav-item " style="color: #a6a3a3;"><i class="fa fa-sign-in"></i>LogIn</a>
+					</li>
+					<li class="nav-link">
+						<a href="help.html" id="" class="nav-item " style="color: #a6a3a3;"><i class="fa fa-question-circle"></i></a>
+					</li>
+				</ul>
+			</div> 	
+		</div>
+	</nav>
+
+
+	<div class="" style="background-image: url('img/vintage-shop.jpg');background-position: center;background-repeat: no-repeat;background-size: cover">
+		<div class="container">
+			<div class="row ">
+				<div class="col-3"></div>
+				<div class="col-6 card shadow p-5 " style="margin-top: 6%;margin-bottom: 1%;">
+					<div class="form-horizontal">
+						<h2 class="text-capitalize text-center text-black-50">Contact Us</h2>
+						<hr/>
+						<div class="form-group">
+							<label class = "control-label">Name</label>
+								<input type="text" name="" class = "col-12 form-control" required="">
+						</div>
+						<div class="form-group">
+							<label class = "control-label">Email</label>
+								<input type="Email" name="" class = "col-12 form-control" required="">
+						</div>
+						<div class="form-group">
+							<label class = "control-label">Subject</label>
+								<input type="text" name="" class = "form-control col-12" required="">
+						</div>
+						<div class="form-group">
+							<label class = "control-label">Message</label>
+							<textarea placeholder="Type Your Message..." class = "form-control col-12">
+							</textarea>
+						</div>
+						<div class="form-group">
+							<input type="submit" class="btn btn-block p-3 text-capitalize col-12" style="background-color:#be7b50;font-weight: bold;" value="Send" />
+						</div>
+					</div>
+				</div>
+				<div class="col-3"></div>
+			</div>
+		</div>
+	</div>
+
+
+	<footer class="text-white " style="max-height: 309px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-3">
+					<div class="footer_widget">
+						<h3 class="footer_title">
+							Address
+						</h3>
+						<p class="footer_text">
+							200, Green road, Mongla, <br>
+							New Yor City USA
+						</p>
+						<a href="#" class="line-button">Get Direction</a>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="footer_widget">
+						<h3 class="footer_title">
+							Contact Us
+						</h3>
+						<p class="footer_text">
+							+1128741930 <br>
+							tailorsHub@gmail.com
+						</p>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="footer_widget">
+						<h3 class="footer_title">
+							Navigation
+						</h3>
+						<ul>
+							<li class = "nav-link">Home</li>
+							<li class = "nav-link">Contact</li>
+							<li class = "nav-link">Help</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="footer_widget">
+						<h3 class="footer_title">
+						</h3>
+						<form action="#" class="newsletter_form">
+							<a href="/Account/Register" class="btn btn-info">Sign Up</a>
+						</form>
+						<p class="newsletter_text">Subscribe newmessage to get updates</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<p>&copy; @DateTime.Now.Year - All rights reserved for ITI Team <a href="/Home/Index"> ZKOS</a>.</p>
+			</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script>
+		$(function () {
+			$("body").niceScroll({
+				cursorcolor: "#BE7B50",
+				background: "rgba(20,20,20,0.3)",
+				cursorborder: "1px solid ",
+			})
+		});
+	</script>
+</body>
+</html>
